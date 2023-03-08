@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">   
+</head>
+<body>
+    <h1>Registration Form</h1>
+        
+        <form action="https://formsubmit.co/jadeburgess1998@gmail.com" method="POST">
+            <div>
+            <lable for="userID">User ID:</lable>
+            <input type="text" name="userID" minlength="5" maxlength="12" required>
+            </div>
+            <div>
+            <lable for="password">Password:</lable>
+            <input type="password" name="password" minlength="7" maxlength="12" required>
+            </div>
+            <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            </div>
+            <div>
+            <lable for="address">Address:</lable>
+            <input type="text" name="address">
+            </div>
+            <div>
+            <lable for="country">Country:</lable>
+            <select id="country" name="country">
+                <option value="southafrica">South Africa</option>
+                <option value="china">China</option>    
+                <option value="france">France</option>
+                <option value="mexico">Mexico</option>
+                <option value="austrailia">Austrailia</option>
+                <option value="japan">Japan</option>
+                <option value="usa">United States of America</option>
+                <option value="canada">Canada</option>
+            </select>
+            </div>
+            <div>
+            <lable for="zipcode">ZIP code:</lable>
+            <input type="number" name="zipcode" required>
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            </div>
+            <div>
+            <label for="sex">Sex:</label>
+            <input type="checkbox" name="sex" checked required>
+                <lable for="male">Male</lable>
+                <input type="checkbox" name="female">
+                <lable for="female">Female</lable>
+            </div>
+           <div>
+            <lable for="language">Language:</lable>
+            <input type="checkbox" name="language" checked required>
+                <lable for="english">English</lable> 
+                <input type="checkbox" name="nonenglish">
+                <lable for="nonenglish">Non English</lable>
+            <div>
+            <div>   
+            <lable for="about">About:</lable>
+            <input type="text" name="about">
+            </div>
+            <div id="submit">
+            <input type="submit">
+            </div>
+    </form>
+
+</body>
