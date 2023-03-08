@@ -1,0 +1,16 @@
+form {display: flex;
+    flex-direction: column;
+    margin-right: 900px;
+
+}
+
+label {display: inline-block;
+      width: 150px
+      text-align: right;
+    }
+
+div {margin-top: 10px;
+}
+input {margin-left: 50px;
+
+}
